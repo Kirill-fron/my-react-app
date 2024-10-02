@@ -1,4 +1,5 @@
 import React from 'react'
+import svg1 from "../assets/svg/1.svg";
 import Png1_ from '../assets/img/1_.png';
 import Png2_ from '../assets/img/2_.png';
 import Png3_ from '../assets/img/3_.png';
@@ -6,7 +7,6 @@ import Png4_ from '../assets/img/4_.png';
 import Png5_ from '../assets/img/5_.png';
 import Png6_ from '../assets/img/6_.png';
 import Png7_ from '../assets/img/7_.png';
-
 const lessons = () => {
   return (
     <div id="lessons" className="moskvin-lessons">
@@ -15,7 +15,7 @@ const lessons = () => {
         <div className="col-lg-11 offset-lg-1">
           <h2>
             программа обучения
-            <img src="https://animocean.pro/themes/animocean/assets/svg/showreel_down.svg" />
+            <img src={svg1} />
           </h2>
           <div className="moskvin-lessons-list">
             <div className="row">

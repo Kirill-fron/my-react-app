@@ -1,7 +1,7 @@
 import React from "react";
 import svg1 from "../assets/svg/1.svg";
 import Jpg from "../assets/img/4.jpg";
-
+import Video1 from "../assets/video/video1.mp4";
 const questions = () => {
   return (
     <>
@@ -48,7 +48,7 @@ const questions = () => {
                 muted
                 data-video="1"
               >
-                <source src="../src/assets/video/video1.mp4" type="video/mp4" />
+                <source src={Video1} type="video/mp4" />
               </video>
               <a className="moskvin-courses-link playbtn" href="#"></a>
             </div>

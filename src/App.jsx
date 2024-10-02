@@ -7,6 +7,7 @@ import Diploma from "./components/Diploma";
 import Payment from "./components/Payment";
 import Assets from "./components/Assets";
 import Questions from "./components/Questions";
+import Video1 from "./assets/video/video1.mp4";
 function App() {
   return (
     <>
@@ -15,7 +16,7 @@ function App() {
           <div className="video-bg-absolute">
             <video id="video"  autoPlay loop muted data-video="0">
               <source
-                src="../src/assets/video/video1.mp4"
+                src={Video1}
                 type="video/mp4"
               />
             </video>

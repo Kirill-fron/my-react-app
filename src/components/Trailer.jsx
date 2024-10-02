@@ -1,5 +1,6 @@
 import React from "react";
 import svg1 from '../assets/svg/1.svg';
+import Video2 from "../assets/video/video2.mp4";
 const Trailer = () => {
   return (
     <>
@@ -24,7 +25,7 @@ const Trailer = () => {
                 data-video="1"
               >
                 <source
-                  src="../src/assets/video/video2.mp4"
+                  src={Video2}
                   type="video/mp4"
                 />
               </video>
