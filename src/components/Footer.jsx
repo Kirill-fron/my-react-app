@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
@@ -10,24 +10,20 @@ const Footer = () => {
               <div className="footer-menu-title">Информация</div>
               <div className="footer-menu-items">
                 <div className="footer-menu-item">
-                  <a
+                  <Link
                     className="footer-menu-link"
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#legalInfoModal"
+                    to="/PersonalData"
                   >
                     Правовая информация
-                  </a>
+                    </Link>
                 </div>
                 <div className="footer-menu-item">
-                  <a
+                  <Link
                     className="footer-menu-link"
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#offerModal"
+                    to="/Of"
                   >
                     Оферта
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

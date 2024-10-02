@@ -1,175 +1,122 @@
 import React from "react";
 
-const personalData = () => {
+const PersonalData = () => {
   return (
-    <>
-      <div
-        className="modal moskva-modal fade"
-        id="termsModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="termsModalLabel"
-        aria-hidden="true"
-      >
+     
         <div
-          className="moskva-modal-dialog modal-dialog modal-dialog-scrollable modal-lg"
-          role="document"
+        className=""
         >
-          <div className="modal-content" data-bs-theme="dark">
-            <div className="modal-header">
-              <h5 className="modal-title" id="termsModalLabel">
-                Соглашение на обработку персональных данных
-              </h5>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body">
-              <noindex></noindex>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/*  */}
-      <div
-        className="modal moskva-modal fade"
-        id="legalInfoModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="legalInfoModalLabel"
-        aria-hidden="true"
-      >
-        <div
-          className="moskva-modal-dialog modal-dialog modal-dialog-scrollable modal-lg"
-          role="document"
-        >
-          <div className="modal-content" data-bs-theme="dark">
-            <div className="modal-header">
-              <h5 className="modal-title" id="legalInfoModalLabel">
-                Правовая информация
-              </h5>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body">
-              <noindex>
-                <p align="center" style="text-align: left;">
+          <div className="modal-content container px-5" data-bs-theme="dark">
+              <div className="text-align: left;">
+                <p align="center" >
                   ООО «МОСКВИН.ПРО» (ИНН 6671283809, ОГРН 1236600056714)
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   17 сентября 2024 года
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   Политика обработки персональных данных&nbsp;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   Настоящая политика обработки персональных данных (далее —
                   «Политика») издана и применяется ООО «МОСКВИН.ПРО» (далее
                   «Оператор») в соответствии с п. 2 ч. 1 ст. 18.1 Федерального
                   закона от 27.07.2006 № 152-ФЗ «О персональных данных».&nbsp;
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center">
                   1. Общие положения&nbsp;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   1.1. Настоящая Политика разъясняет порядок сбора, хранения и
                   защиты персональных данных Клиентов, которые решили
                   воспользоваться услугами Оператора.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   1.2. Клиенты дают согласие на обработку персональных данных в
                   соответствии с настоящей Политикой путем проставления
                   чек-бокса «Согласен», а также при регистрации Личного кабинета
                   на Сайте Оператора.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   1.3. Просим Вас внимательно ознакомиться с Политикой, это
                   поможет Вам понять область её применения и принять осознанное
                   решение о предоставлении Ваших Персональных данных. В случае
                   несогласия с этими условиями Клиент должен воздержаться от
                   услуг, предоставляемых Оператором.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   1.4. Настоящая Политика может быть изменена, заменена или
                   удалена в любое время без предварительного уведомления.
                   Рекомендуется периодически просматривать эту страницу для
                   получения последней информации о Политике Оператора.
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   2. Категории субъектов, персональные данные которых
                   обрабатываются:
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   2.1. Клиенты, состоящие в договорных отношениях с Оператором,
                   и их законные представители.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   3. Цели обработки персональных данных Клиентов Оператор
                   обрабатывает персональные данные Клиентов в следующих целях:
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   3.1. Оказания Оператором услуг, согласно заключенному между
                   Оператором и Клиентом договору;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   3.2. Установления с Клиентом обратной связи, включая
                   направление уведомлений, касающихся порядка оказания услуг,
                   обработку запросов и заявок от Клиента.
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   4. Категории персональных данных, которые обрабатывает
                   Оператор
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   4.1. В рамках достижения целей обработки, предусмотренных
                   настоящей Политикой, Оператор осуществляет обработку следующих
                   категорий персональных данных Клиентов:
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   - фамилия, имя и отчество;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   - адрес электронной почты;
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   5. Способы и условия обработки персональных данных Клиентов
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   5.1. Оператор осуществляет автоматизированную и
                   неавтоматизированную обработку персональных данных Клиентов.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   5.2. В отношении персональной информации Клиентов сохраняется
                   ее конфиденциальность, кроме случаев добровольного
                   предоставления Клиентом информации о себе для общего доступа
                   неограниченному кругу лиц.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   5.3. Оператор раскрывает информацию о Клиентах третьим лицам
                   исключительно в тех случаях, когда есть обязанность это
                   сделать в соответствии с действующим законодательством,
                   запросами государственных органов, судебным разбирательством,
                   постановлением суда или судебным процессом.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   5.4. Обработка, в том числе и хранение, персональных данных
                   Клиентов осуществляется до момента отказа Клиента от услуг
                   Оператора.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   5.5. В случае отказа Клиента от услуг Оператора, персональные
                   данные Клиента удаляются посредством уничтожения учетной
                   записи, после чего такая запись не подлежит восстановлению.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   5.6. Оператор оказывает услуги Клиентам посредством размещения
                   своего интернет-сайта на сайте{" "}
                   <a href="https://animocean.pro/">https://animocean.pro/</a>,
@@ -180,7 +127,7 @@ const personalData = () => {
                   расширение HTTPS к протоколу HTTP в целях повышения
                   безопасности и защиты информации
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   5.7. Услуги хостинга и услуги предоставления выделенного
                   сервера предоставляются ООО ««Интернет-Про» »{" "}
                   <a href="https://www.netangels.ru/company/">
@@ -188,10 +135,10 @@ const personalData = () => {
                   </a>
                   .
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   6. Обеспечение безопасности персональных данных
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.1. Оператор принимает необходимые организационные и
                   технические меры для защиты персональной информации Клиента от
                   неправомерного или случайного доступа, уничтожения, изменения,
@@ -201,7 +148,7 @@ const personalData = () => {
                   информации, предоставленной ему, на всех этапах обработки
                   персональных данных.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.2. В соответствии с Федеральным законом Российской Федерации
                   от 27 июля 2006 г. №152- ФЗ «О персональных данных» Оператор
                   самостоятельно определяет состав и перечень мер, необходимых и
@@ -209,70 +156,70 @@ const personalData = () => {
                   предусмотренных законодательством в области персональных
                   данных.&nbsp;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.3. Защита персональных данных достигается путем:
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.3.1. Назначения ответственного за обработку и защиту
                   персональных данных;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.3.2. Утверждения настоящей Политики;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.3.3. Организации доступа сотрудников Оператора к информации,
                   содержащей персональные данные Клиентов, в соответствии с их
                   должностными (функциональными) обязанностями;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.4. Клиент осуществляет защиту своих персональных данных
                   путём отзыва согласия на обработку своих персональных данных
                   или другими способами, предусмотренными законодательством.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.5. Оператор совместно с Клиентом принимает все необходимые
                   меры по предотвращению убытков или иных отрицательных
                   последствий, вызванных утратой или разглашением персональных
                   данных Клиента.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   6.6. При утрате или разглашении персональных данных Оператор
                   информирует Клиента об утрате или разглашении персональных
                   данных.
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   7. Ответственность Сторон
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   7.1. Оператор в случае неисполнения своих обязательств несет
                   ответственность за убытки, понесенные Клиентом в связи с
                   неправомерным использованием персональных данных, в
                   соответствии с законодательством Российской Федерации.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   7.2. В случае утраты или разглашения конфиденциальной
                   информации Оператор не несет ответственности, если данная
                   конфиденциальная информация:
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   7.2.1. Стала публичным достоянием до ее утраты или
                   разглашения;
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   7.2.2. Была разглашена с согласия Клиента.
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   8. Дополнительные условия
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   8.1. Оператор вправе вносить изменения в настоящую Политику
                   обработки персональных данных без согласия Клиента.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   8.2. Новая Политика вступает в силу с момента ее размещения на
                   Сайте, если иное не предусмотрено новой редакцией Политики.
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   8.3. Все предложения или вопросы по настоящей Политике следует
                   сообщать
                   <a href="mailto:hello@animocean.pro">
@@ -280,7 +227,7 @@ const personalData = () => {
                   </a>
                   .
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   8.4. Действующая Политика обработки персональных данных
                   размещена на странице по адресу:{" "}
                   <a href="https://animocean.pro/3d-animator">
@@ -288,20 +235,16 @@ const personalData = () => {
                   </a>
                   .
                 </p>
-                <p align="center" style="text-align: center;">
+                <p align="center" >
                   9. Контактная информация Оператора
                 </p>
-                <p align="center" style="text-align: left;">
+                <p align="center" >
                   <a href="mailto:hello@animocean.pro">hello@animocean.pro</a>
                 </p>
-              </noindex>
-            </div>
+              </div>
           </div>
         </div>
-      </div>
-      {/*  */}
-    </>
   );
 };
 
-export default personalData;
+export default PersonalData;

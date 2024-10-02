@@ -2,32 +2,12 @@ import React from 'react'
 
 const Of = () => {
   return (
-    <div
-    className="modal moskva-modal fade"
-    id="offerModal"
-    tabindex="-1"
-    role="dialog"
-    aria-labelledby="offerModalLabel"
-    aria-hidden="true"
-  >
-    <div
-      className="moskva-modal-dialog modal-dialog modal-dialog-scrollable modal-xl"
-      role="document"
-    >
-      <div className="modal-content" data-bs-theme="dark">
-        <div className="modal-header">
-          <h5 className="modal-title" id="offerModalLabel">
-            Оферта
-          </h5>
-          <button
-            type="button"
-            className="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
+   
+ 
+      <div className="modal-content container px-5" data-bs-theme="dark">
+     
         <div className="modal-body">
-          <noindex>
+          <div>
             <p align="center">
               <strong>СОГЛАШЕНИЕ</strong>
             </p>
@@ -469,11 +449,9 @@ const Of = () => {
             <p>
               <br />
             </p>
-          </noindex>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
   )
 }
 
