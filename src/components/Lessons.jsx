@@ -122,7 +122,7 @@ const lessons = () => {
                 <div className="moskvin-lesson">
                   <div className="moskvin-lesson-front">
                     <div className="moskvin-lesson-cover">
-                      <img src={Png4_}  />
+                      <img src={Png7_}  />
                     </div>
                     <div className="moskvin-lesson-title">
                       Motion design
@@ -160,7 +160,7 @@ const lessons = () => {
                 <div className="moskvin-lesson">
                   <div className="moskvin-lesson-front">
                     <div className="moskvin-lesson-cover">
-                      <img src={Png5_}  />
+                      <img src={Png4_}  />
                     </div>
                     <div className="moskvin-lesson-title">
                       Лицевая анимация
@@ -196,7 +196,7 @@ const lessons = () => {
                 <div className="moskvin-lesson">
                   <div className="moskvin-lesson-front">
                     <div className="moskvin-lesson-cover">
-                      <img src={Png6_} />
+                      <img src={Png5_} />
                     </div>
                     <div className="moskvin-lesson-title">
                       Композиция и построение кадра
@@ -231,7 +231,7 @@ const lessons = () => {
                 <div className="moskvin-lesson">
                   <div className="moskvin-lesson-front">
                     <div className="moskvin-lesson-cover">
-                      <img src={Png7_}  />
+                      <img src={Png6_}  />
                     </div>
                     <div className="moskvin-lesson-title">
                       Продвинутая анимация
