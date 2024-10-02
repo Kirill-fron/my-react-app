@@ -65,13 +65,19 @@ const questions = () => {
           </div>
           <div className="row">
             <div className="col-lg-8 offset-lg-1">
-              <div className="questions-list">
-                <div className="question">
+              <div className="questions-list "  >
+                <div className="question ">
                   <div className="question-static">
-                    <div className="question-title">
+                    <div className="question-title"  id="headingOne">
                       У меня нет опыта в 3D-анимации, подойдет ли мне этот курс?
                     </div>
-                    <a className="question-toggler" href="#">
+                    <a className="question-toggler" href="#"
+                     onClick={(e) => {
+                       e.preventDefault(); 
+                       const toggle = e.currentTarget.closest('.question').querySelector('.question-toggle');
+                       toggle.classList.toggle('open'); 
+                     }}
+                    >
                       +
                     </a>
                   </div>
@@ -84,7 +90,13 @@ const questions = () => {
                 <div className="question">
                   <div className="question-static">
                     <div className="question-title">Как проходит обучение?</div>
-                    <a className="question-toggler" href="#">
+                    <a className="question-toggler" href="#"
+                     onClick={(e) => {
+                      e.preventDefault(); 
+                      const toggle = e.currentTarget.closest('.question').querySelector('.question-toggle');
+                      toggle.classList.toggle('open'); 
+                    }}
+                    >
                       +
                     </a>
                   </div>
@@ -101,7 +113,13 @@ const questions = () => {
                     <div className="question-title">
                       Все уроки доступны сразу?
                     </div>
-                    <a className="question-toggler" href="#">
+                    <a className="question-toggler" href="#"
+                     onClick={(e) => {
+                      e.preventDefault(); 
+                      const toggle = e.currentTarget.closest('.question').querySelector('.question-toggle');
+                      toggle.classList.toggle('open'); 
+                    }}
+                    >
                       +
                     </a>
                   </div>
@@ -122,7 +140,13 @@ const questions = () => {
                     <div className="question-title">
                       Почему такая система курса?
                     </div>
-                    <a className="question-toggler" href="#">
+                    <a className="question-toggler" href="#"
+                     onClick={(e) => {
+                      e.preventDefault(); 
+                      const toggle = e.currentTarget.closest('.question').querySelector('.question-toggle');
+                      toggle.classList.toggle('open'); 
+                    }}
+                    >
                       +
                     </a>
                   </div>
@@ -149,7 +173,13 @@ const questions = () => {
                       Будет ли в курсе «3D Анимация в программе Blender» только
                       анимация персонажей?
                     </div>
-                    <a className="question-toggler" href="#">
+                    <a className="question-toggler" href="#"
+                     onClick={(e) => {
+                      e.preventDefault(); 
+                      const toggle = e.currentTarget.closest('.question').querySelector('.question-toggle');
+                      toggle.classList.toggle('open'); 
+                    }}
+                    >
                       +
                     </a>
                   </div>
@@ -166,7 +196,13 @@ const questions = () => {
                       Что мне будет доступно и как долго у меня будет доступ к
                       обучению?
                     </div>
-                    <a className="question-toggler" href="#">
+                    <a className="question-toggler" href="#"
+                     onClick={(e) => {
+                      e.preventDefault(); 
+                      const toggle = e.currentTarget.closest('.question').querySelector('.question-toggle');
+                      toggle.classList.toggle('open'); 
+                    }}
+                    >
                       +
                     </a>
                   </div>
@@ -202,7 +238,13 @@ const questions = () => {
                     <div className="question-title">
                       Почему программа Blender?
                     </div>
-                    <a className="question-toggler" href="#">
+                    <a className="question-toggler" href="#"
+                     onClick={(e) => {
+                      e.preventDefault(); 
+                      const toggle = e.currentTarget.closest('.question').querySelector('.question-toggle');
+                      toggle.classList.toggle('open'); 
+                    }}
+                    >
                       +
                     </a>
                   </div>
