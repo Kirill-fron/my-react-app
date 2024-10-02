@@ -723,6 +723,19 @@ padding: 15px;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.moskvin-lesson {
+    position: relative;
+    perspective: 1000px; 
+}
+
+.moskvin-lesson-inner {
+    position: relative;
+    width: 100%;
+    height: 326px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d; 
+}
+
 .moskvin-lesson-front,
 .moskvin-lesson-back {
     position: absolute;
@@ -735,26 +748,18 @@ padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.6s;
 }
 
 .moskvin-lesson-back {
-    display: flex;
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); 
     background-color: #000;
     border: 1px solid rgba(255, 255, 255, 0.2);
     flex-direction: column;
     padding: 2rem;
 }
 
-.moskvin-lesson:hover .moskvin-lesson-front {
-    transform: rotateY(180deg);
-    /* Поворачиваем лицевую сторону на 180 градусов при наведении */
-}
-
-.moskvin-lesson:hover .moskvin-lesson-back {
-    transform: rotateY(360deg);
-    /* Возвращаем обратную сторону в исходное положение при наведении */
+.moskvin-lesson:hover .moskvin-lesson-inner {
+    transform: rotateY(180deg); 
 }
 
 .moskvin-lesson-cover {
@@ -762,7 +767,6 @@ padding: 15px;
     position: relative;
 }
 
-/* .moskvin-lesson-cover::before {content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: rgb(0 0 0 / 30%); border-radius: 1.875rem;} */
 .moskvin-lesson-cover img {
     max-width: 100%;
     border-radius: 1.875rem;
