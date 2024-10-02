@@ -9,7 +9,7 @@ import Diploma from "./components/Diploma";
 import Payment from "./components/Payment";
 import Assets from "./components/Assets";
 import Questions from "./components/Questions";
-import PersonalData from "./components/PersonalData";
+import PersonalData from "./components/personalData";
 import Of from "./components/Of";
 
 import Video1 from "./assets/video/video1.mp4";

@@ -1,6 +1,6 @@
 import React from "react";
 
-const PersonalData = () => {
+const personalData = () => {
   return (
      
         <div
@@ -247,4 +247,4 @@ const PersonalData = () => {
   );
 };
 
-export default PersonalData;
+export default personalData;
