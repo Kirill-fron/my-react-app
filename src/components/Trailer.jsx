@@ -1,7 +1,12 @@
 import React from "react";
 import svg1 from '../assets/svg/1.svg';
 import Video2 from "../assets/video/video2.mp4";
+
+import { useTranslation } from "react-i18next";
+
+
 const Trailer = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="trailer">
@@ -10,7 +15,7 @@ const Trailer = () => {
             <div className="row">
               <div className="col-lg-4 offset-lg-8">
                 <div className="moskvin-showreel-caption">
-                  трейлер курса
+                  {t("courseTrailer")}
                   <img src={svg1} />
                 </div>
               </div>
@@ -34,8 +39,7 @@ const Trailer = () => {
             <div className="row">
               <div className="col-lg-7 offset-lg-1">
                 <div className="moskvin-hello-description">
-                  курс создан для тех, кто хочет овладеть 3d-анимацией в
-                  программе blender
+                  {t("courseCreated")}
                 </div>
               </div>
               <div className="col-lg-4"></div>

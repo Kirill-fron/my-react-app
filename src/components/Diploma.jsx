@@ -1,5 +1,5 @@
 import React from 'react'
-
+import video3 from "../assets/video/video3.mp4";
 const diploma = () => {
   return (
     <div className="diploma">
@@ -15,8 +15,24 @@ const diploma = () => {
                 скачать проекты с моделями и сценами, что позволит сразу
                 приступить к практике.
               </div>
+         
             </div>
           </div>
+          <div className="moskvin-showreel-video mx-auto mt-5 col-6">
+              <video
+                id="videoPlayer"
+                className="moskvin-trailer-video"
+                autoPlay
+                loop 
+                muted 
+                data-video="1"
+              >
+                <source
+                  src={video3}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
         </div>
       </div>
     </div>

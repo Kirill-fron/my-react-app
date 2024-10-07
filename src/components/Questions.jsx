@@ -2,24 +2,20 @@ import React from "react";
 import svg1 from "../assets/svg/1.svg";
 import Jpg from "../assets/img/4.jpg";
 import Video1 from "../assets/video/video1.mp4";
+import { useTranslation } from "react-i18next";
+
 const questions = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="trailer">
         <div className="container">
           <div className="row my-5">
             <div className="col-lg-6">
-              <h2 className=" fs-1">Автор курса</h2>
+              <h2 className=" fs-1">{t("courseAuthor")}</h2>
               <p className="author-text">
-                Профессионал, который оживляет трехмерные объекты и персонажи.
-                Внешний вид персонажа создается художником, но его поведение и
-                движения в пространстве определяет аниматор. С помощью анимации
-                можно наделить одну и ту же модель различными чертами характера:
-                например, монстр может выглядеть отважным и агрессивным или,
-                наоборот, робким и боязливым. 3D-аниматоры могут занимать
-                позиции режиссеров-постановщиков, аниматоров, риггеров,
-                специалистов по визуализации, а также художников по
-                моделированию и текстурированию.
+              {t("p4")}
               </p>
             </div>
             <div className="col-lg-6 d-flex justify-content-center">
@@ -34,7 +30,7 @@ const questions = () => {
             <div className="row">
               <div className="col-lg-6 offset-lg-3">
                 <div className="moskvin-showreel-caption">
-                  Работы от создателей курса
+                     {t("works")}
                   <img src={svg1} />
                 </div>
               </div>

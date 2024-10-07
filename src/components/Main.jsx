@@ -22,7 +22,7 @@ const Main = () => {
               {t("programBtn")}
             </a>
             <a href="#lessons" className="btn btn-outline-white mx-5">
-              НАЧАТЬ БЕСПЛАТНО
+              {t("startFOR")}
             </a>
           </div>
           <div className="moskvin-benefits">

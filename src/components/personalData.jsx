@@ -8,9 +8,7 @@ const personalData = () => {
         >
           <div className="modal-content container px-5" data-bs-theme="dark">
               <div className="text-align: left;">
-                <p align="center" >
-                  ООО «МОСКВИН.ПРО» (ИНН 6671283809, ОГРН 1236600056714)
-                </p>
+              
                 <p align="center" >
                   17 сентября 2024 года
                 </p>
