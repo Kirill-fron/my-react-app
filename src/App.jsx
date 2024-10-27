@@ -10,6 +10,7 @@ import img5 from "./assets/img/2.png";
 import img6 from "./assets/img/3.png";
 import img7 from "./assets/img/4.jpg";
 import img8 from "./assets/svg/Vector_4.svg";
+import logo from "./assets/img/logo.png";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <div class="header">
               <img
                 loading="lazy"
-                src="../src/assets/img/logo.png"
+                src={logo}
                 class="img-2"
               />
               <div class="div-2">
