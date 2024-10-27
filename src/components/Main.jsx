@@ -1,16 +1,13 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
+import Jpg from "../assets/img/4.jpg";
+import Png1 from '../assets/img/Video 01.png'
 const Main = () => {
   const { t } = useTranslation();
   return (
     <>
       <div className="course">
         <div className="container">
-          <div className="course-caption">
-            <div className="course-caption-item"> {t("courseTitle")}</div>
-            <div className="course-caption-item"> {t("education")}</div>
-          </div>
           <h1>{t("courseName")}</h1>
           <div className="row">
             <div className="col-lg-7">
@@ -46,16 +43,21 @@ const Main = () => {
           <div className="row">
             <div className="col-lg-11 offset-lg-1">
               <div className="career-activities">
-                <h2> {t("careerTitle")}</h2>
                 <div className="moskvin-services-list">
                   <div className="moskvin-service">
                     <div className="moskvin-service-inner">
-                      <div className="row">
-                        <div className="col-lg-8">
-                          <h3> {t("careerAnimatorTitle")}</h3>
-                          <div className="moskvin-service-announce">
-                            {t("careerAnimatorDescription")}
-                          </div>
+                      <div className="row my-5">
+                        <div className="col-lg-6">
+                          <h2 className="color-green"> {t("careerTitle")}</h2>
+                          <p className="color-h3">{t("skills1")}</p>
+                          <p className="author-text">{t("skills2")}</p>
+                        </div>
+                        <div className="col-lg-6 d-flex justify-content-center">
+                          <img
+                            className="author-img d-block mx-auto"
+                            src={Png1}
+                            alt="Author"
+                          />
                         </div>
                       </div>
                     </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import logo from '../assets/img/logo.png';
-import { useTranslation } from 'react-i18next';
+import logo from "../assets/img/logo.png";
+import insta from '../assets/svg/insta.svg'
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
-
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -18,15 +18,13 @@ const Header = () => {
             <div className="col-lg-2">
               <div className="header-logo">
                 <a href="/">
-                <img src={logo} alt="Logo" />
+                  <img src={logo} alt="Logo" />
                 </a>
               </div>
             </div>
             <div className="col-lg-auto">
               <div className="moskvin-flex-row">
-                <div className="header-description">
-                {t('headerText')}
-                </div>
+                <div className="header-description">{t("headerText")}</div>
                 <div className="header-social">
                   <a
                     className="header-social-link"
@@ -52,12 +50,17 @@ const Header = () => {
                     </svg>
                   </a>
                 </div>
+                <a href="https://www.instagram.com/anim0cean">
+                  <img width={20} height={20} src={insta} alt="instagram" />
+                </a>
                 <div className="header-switch">
-                  <a onClick={() => changeLanguage('ru')} >ру</a>
-                  <a onClick={() => changeLanguage('en')} className="p-2 " >en</a>
+                  <a onClick={() => changeLanguage("ru")}>ru</a>
+                  <a onClick={() => changeLanguage("en")} className="p-2 ">
+                    en
+                  </a>
                 </div>
-                <button className="btn btn-outline-white mx-5 px-1 py-1">
-                  ВОЙТИ
+                <button className="btn btn-outline-white  mx-5 px-1 py-1">
+                  <span className="px-4 py-1">ВОЙТИ</span>
                 </button>
               </div>
             </div>

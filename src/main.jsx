@@ -7,7 +7,6 @@ import App from "./App";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/style.css";
-import "./assets/css/mobile.css";
 import "./assets/css/plyr.css";
 import "./assets/css/fonts.css";
 
